@@ -300,6 +300,7 @@ p {
 }
 
 .buy_type {
+    display: block;
     font-family: Arial;
     color:  #ffffff;
     font-size: 24px;
@@ -310,6 +311,7 @@ p {
 }
 
 .buy_price {
+    display: block;
     font-family: Arial;
     color:  #445162;
     font-size: 40px;
@@ -354,6 +356,16 @@ p {
     padding: 12px 0;
     margin: 20px;
     text-transform: uppercase;
+}
+
+.buy_button:hover {
+    background: #10971d;
+    color: white;
+}
+
+.buy_button:active {
+    background: #00ff14;
+    color: white;
 }
 
 .footer_contacts {
@@ -405,6 +417,20 @@ p {
     line-height: 24px;
     border-width: 0;
     margin: 0 auto;
+}
+
+.user_name:focus, .user_mail:focus, .user_message:focus, .send_button:focus {
+    outline: none;
+}
+
+.send_button:hover {
+    background: #10971d;
+    color: white;
+}
+
+.send_button:active {
+    background: #00ff14;
+    color: white;
 }
 
 .other_info {
@@ -471,4 +497,8 @@ address {
     letter-spacing: 0.3px;
     line-height: 24px;
     text-align: center;
+}
+
+.caps_text {
+    text-transform: uppercase;
 }
