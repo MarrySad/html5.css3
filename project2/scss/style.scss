@@ -1,3 +1,49 @@
-body {
-  margin: 0;
+@import "veriables";
+
+.main-header {
+  display: flex;
+  background-color:  rgba(17, 17, 17, 0.7);
+
+}
+
+.logo-block {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: $color-white;
+  &:hover {
+    color: $color-hover;
+    .logo {
+      fill: $color-hover
+    }
+  }
+}
+
+.logo-text {
+  font-family: $font-logo, sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+}
+
+.logo {
+  fill: $color-white;
+}
+
+.header-nav {
+  & ul {
+    & li {
+      display: inline;
+      & a {
+        font-family: $font-small-text, sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        text-decoration: none;
+        color: $color-white;
+        margin: 0 15px;
+        &:hover {
+          color: $color-hover;
+        }
+      }
+    }
+  }
 }
