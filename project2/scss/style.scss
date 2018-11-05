@@ -2,7 +2,7 @@
 
 .main-header {
   display: flex;
-  background-color:  rgba(17, 17, 17, 0.7);
+  background-color: rgba(17, 17, 17, 0.7);
 
 }
 
@@ -20,7 +20,7 @@
 }
 
 .logo-text {
-  font-family: $font-logo, sans-serif;
+  font-family: $font-logo;
   font-size: 34px;
   font-weight: 400;
 }
@@ -30,20 +30,18 @@
 }
 
 .header-nav {
-  & ul {
-    & li {
-      display: inline;
-      & a {
-        font-family: $font-small-text, sans-serif;
-        font-size: 14px;
-        font-weight: 300;
-        text-decoration: none;
-        color: $color-white;
-        margin: 0 15px;
-        &:hover {
-          color: $color-hover;
-        }
-      }
+  li {
+    display: inline;
+  }
+  a {
+    font-family: $font-small-text;
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    color: $color-white;
+    margin: 0 15px;
+    &:hover {
+      color: $color-hover;
     }
   }
 }

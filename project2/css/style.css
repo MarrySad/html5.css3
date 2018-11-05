@@ -26,16 +26,16 @@
 .logo {
   fill: #fff; }
 
-.header-nav ul li {
+.header-nav li {
   display: inline; }
-  .header-nav ul li a {
-    font-family: "Montserrat Light", sans-serif;
-    font-size: 14px;
-    font-weight: 300;
-    text-decoration: none;
-    color: #fff;
-    margin: 0 15px; }
-    .header-nav ul li a:hover {
-      color: #c7b29a; }
+.header-nav a {
+  font-family: "Montserrat Light", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  text-decoration: none;
+  color: #fff;
+  margin: 0 15px; }
+  .header-nav a:hover {
+    color: #c7b29a; }
 
 /*# sourceMappingURL=style.css.map */
