@@ -1,0 +1,49 @@
+.container {
+    width: 640px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container div {
+    width: 200px;
+    height: 300px;
+    border: 1px solid #000000;
+    position: absolute;
+}
+
+.container div:hover {
+    z-index: 5;
+}
+
+.one {
+    background-color: yellow;
+    z-index: 0;
+}
+
+.two {
+    background-color: coral;
+    z-index: 1;
+    top: 50px;
+    left: 50px;
+}
+
+.three {
+    background-color: orange;
+    z-index: 2;
+    top: 100px;
+    left: 100px;
+}
+
+.four {
+    background-color: red;
+    z-index: 3;
+    top: 150px;
+    left: 150px;
+}
+
+.five {
+    background-color: green;
+    z-index: 4;
+    top: 200px;
+    left: 200px;
+}
