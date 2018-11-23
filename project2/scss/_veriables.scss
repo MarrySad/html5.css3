@@ -1,9 +1,19 @@
-@import "mixins";
+@import "mixin_for_font";
 
 @include font-face("Montserrat Light", "../fonts/montserrat-light", 300);
 @include font-face("Raleway Regular", "../fonts/raleway-regular", 400);
+@include font-face("Raleway Medium", "../fonts/raleway-medium", 500);
+@include font-face("Raleway Semibold", "../fonts/raleway-semibold", 600);
+@include font-face("Raleway Extrabold", "../fonts/raleway-extrabold", 700);
 
 $font-logo: "Raleway Regular", sans-serif;
 $font-small-text: "Montserrat Light", sans-serif;
+$font-slider-h2: "Raleway Medium", sans-serif;
+$font-slider-h1: "Raleway Extrabold", sans-serif;
 $color-white: #fff;
 $color-hover: #c7b29a;
+$color-title: #555555;
+$color-p: #8c8c8c;
+$section-color-d: #fbfaf8;
+$section-color-l: #fcfcfc;
+$background-img-color: #c7b29a;

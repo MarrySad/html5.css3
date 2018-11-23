@@ -1,0 +1,296 @@
+@import "veriables";
+@import "mixin_for_font";
+@import "mixins";
+
+.services {
+  width: 100%;
+  background-color: $section-color-l;
+  display: flex;
+  justify-content: center;
+  padding: 80px 0;
+  box-sizing: border-box;
+}
+
+.services-elem-wrap {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  color: $color-title;
+  svg {
+    display: block;
+    fill: $color-title;
+    margin: 0 auto;
+    height: 49px;
+  }
+  &:after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: #f1eee9;
+    margin: 0 auto;
+    align-self: flex-end;
+  }
+  &:hover {
+    svg {
+      fill: $color-hover;
+    }
+    .section-h2 {
+      color: $color-hover;
+    }
+    &:after {
+      background-color: $color-hover;
+    }
+  }
+}
+
+.section-h2 {
+  font-family: "Raleway Semibold", sans-serif;
+  color:  $color-title;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.section-p {
+  font-family: "Montserrat Light", sans-serif;
+  color:  $color-p;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: center;
+}
+
+.realisation_ideas {
+  background-color: $section-color-d;
+  &-wrap {
+    max-width: 100%;
+    width: 1230px;
+    margin: 0 auto;
+    position: relative;
+  }
+  &-h2 {
+    font-family: "Raleway Semibold", sans-serif;
+    width: 100%;
+    padding-top: 83px;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: $color-title;
+  }
+  &-p {
+    font-family: "Montserrat Light", sans-serif;
+    width: 770px;
+    margin: 24px auto 40px auto;
+    color:  #8c8c8c;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+  }
+  &-img {
+    display: block;
+    width: 770px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+    background-color: $background-img-color;
+  }
+  &-img:nth-child(4){
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    &:hover {
+      z-index: 3;
+    }
+  }
+  &-img:nth-child(5){
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    &:hover {
+      z-index: 3;
+    }
+  }
+}
+
+.wordpress {
+  background: -webkit-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+  background: -moz-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+  background: -o-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+  background: -ms-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+  background: linear-gradient(90deg, #211b19 0%, #4e3427 100%);
+  &-wrap {
+    max-width: 100%;
+    width: 1170px;
+    padding: 45px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-wrap-text {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+  }
+  &-h2 {
+    font-family: "Raleway Regular", sans-serif;
+    color:  $color-white;
+    font-size: 28px;
+    font-weight: 400;
+    text-align: left;
+    margin: 0 0 8px 0;
+    span {
+      color: $color-hover;
+    }
+  }
+  &-p {
+    font-family: "Montserrat Light", sans-serif;
+    color:  #615855;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
+    margin: 0;
+  }
+  &-button {
+    @include button;
+  }
+}
+
+.projects {
+  background-color: $section-color-l;
+  padding: 80px 0;
+  &-h2 {
+    font-family: "Raleway Semibold", sans-serif;
+    width: 100%;
+    margin: 0 auto 24px auto;
+    box-sizing: border-box;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: $color-title;
+  }
+  &-p {
+    font-family: "Montserrat Light", sans-serif;
+    width: 770px;
+    margin: 24px auto 40px auto;
+    color: #8c8c8c;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+  }
+  &-buttons-wrap {
+    width: 615px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  &-button {
+    margin: 0 5px;
+    border: solid 1px #ebebeb;
+    border-radius: 3px;
+    padding: 7px 20px;
+    color: $color-p;
+    background-color: $section-color-d;
+    font-family: "Montserrat Light", sans-serif;
+    font-size: 14px;
+    outline: none;
+    &:hover {
+      color: white;
+      background-color:  #998675;
+      border-color: #998675;
+    }
+    &:active {
+      color: white;
+      background-color: lighten(#998675,15%);
+      border-color: #998675;
+    }
+  }
+}
+
+.preview_wrap {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.preview {
+  margin-bottom: 30px;
+  position: relative;
+  &-img {
+    background-color: $background-img-color;
+    width: 370px;
+    height: 237px;
+  }
+  &-text_wrap {
+    background-color:  #fbfaf8;
+    padding: 28px 30px 20px 30px;
+    position: relative;
+    &:after {
+      content: "";
+      border: 15px solid transparent;
+      border-bottom: 10px solid #fbfaf8;
+      position: absolute;
+      left: 19px;
+      top: -29px;
+    }
+  }
+  &-title {
+    font-family: "Raleway Medium", sans-serif;
+    color:  $color-hover;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+  }
+  &-p {
+    font-family: "Montserrat Light", sans-serif;
+    color:  #d1d1d1;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 0;
+  }
+  &-link, &-view {
+    display: none;
+    width: 26px;
+    height: 26px;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 106px;
+  }
+  &-link{
+    background: url("../img/link.png") center;
+    left: 145px;
+    &:hover {
+      background: linear-gradient(to top, rgba(255,0,0,0.3), rgba(255,0,0,0.3));
+    }
+  }
+  &-view{
+    background: url("../img/lupa.png") no-repeat center ;
+    right: 145px;
+    &:hover {
+      background: linear-gradient(to top, rgba(255,0,0,0.3), rgba(255,0,0,0.3));
+    }
+  }
+  &:hover {
+    .preview-img {
+      filter: brightness(0.4);
+    }
+    .preview-text_wrap {
+      background-color: #362f2d;
+      &:after {
+        border-bottom-color: #362f2d;
+      }
+    }
+    .preview-link, .preview-view {
+      display: block;
+    }
+  }
+}

@@ -1,18 +1,22 @@
 @import "veriables";
+@import "mixin_for_font";
 @import "mixins";
+@import "slider";
+@import "main";
 
 .main-header {
-  background: url("../img/header.jpg")  no-repeat center;
-  box-shadow:  0 0 0 50vmax rgba(17, 17, 17, 0.7) inset;
-  padding-top: 40px;
+  width: 100%;
+  position: absolute;
+  z-index: 10;
 }
 
 .header-wrap {
+  max-width: 100%;
   width: 1170px;
-  margin: 0 auto;
+  margin: 40px auto 0 auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 
 .logo-block {
@@ -20,7 +24,7 @@
   align-items: center;
   text-decoration: none;
   color: $color-white;
-  margin-right: auto;
+  //margin-right: auto;
   &:hover {
     color: $color-hover;
     .logo {
@@ -39,6 +43,11 @@
 }
 
 .header-nav {
+  ul {
+    padding-left: 0;
+
+  }
+  display: flex;
   li {
     display: inline;
   }
@@ -73,6 +82,7 @@
 
 .search {
   width: 40px;
+  transition: width 1s ease-out, background-position 1s ease-out;
   height: 40px;
   outline: none;
   border: none;
@@ -80,13 +90,10 @@
   background: url('../img/icons/icon-search.png') no-repeat center;
   &:focus {
     width: 152px;
-    transition: width 1s ease-out;
-    background-position: right;
+    transition: width 1s ease-out, background-position 1s ease-out;
+    background-position: 95%;
     border: 1px solid gray;
   }
 }
 
-.slider {
-  width: 100%;
-}
 
