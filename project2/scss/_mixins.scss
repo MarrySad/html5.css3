@@ -25,6 +25,6 @@
     border: 1px solid #998675;
   }
   &:active {
-    background-color: white;
+    background-color: lighten(#998675,40%);
   }
 }

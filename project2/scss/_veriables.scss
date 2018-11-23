@@ -1,6 +1,7 @@
 @import "mixin_for_font";
 
 @include font-face("Montserrat Light", "../fonts/montserrat-light", 300);
+@include font-face("Montserrat Regular", "../fonts/montserrat-regular", 400);
 @include font-face("Raleway Regular", "../fonts/raleway-regular", 400);
 @include font-face("Raleway Medium", "../fonts/raleway-medium", 500);
 @include font-face("Raleway Semibold", "../fonts/raleway-semibold", 600);
