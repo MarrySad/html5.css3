@@ -288,11 +288,11 @@
     max-width: 100%;
     width: 1230px;
     margin: 0 auto;
+    padding-top: 58px;
     position: relative; }
   .realisation_ideas-h2 {
     font-family: "Raleway Semibold", sans-serif;
     width: 100%;
-    padding-top: 83px;
     font-size: 30px;
     font-weight: 600;
     text-align: center;
@@ -445,7 +445,8 @@
   .preview-img {
     background-color: #c7b29a;
     width: 370px;
-    height: 237px; }
+    height: 237px;
+    margin-bottom: -4px; }
   .preview-text_wrap {
     background-color: #fbfaf8;
     padding: 28px 30px 20px 30px;
@@ -456,7 +457,7 @@
       border-bottom: 10px solid #fbfaf8;
       position: absolute;
       left: 19px;
-      top: -29px; }
+      top: -25px; }
   .preview-title {
     font-family: "Raleway Medium", sans-serif;
     color: #c7b29a;

@@ -67,12 +67,12 @@
     max-width: 100%;
     width: 1230px;
     margin: 0 auto;
+    padding-top: 58px;
     position: relative;
   }
   &-h2 {
     font-family: "Raleway Semibold", sans-serif;
     width: 100%;
-    padding-top: 83px;
     font-size: 30px;
     font-weight: 600;
     text-align: center;
@@ -227,6 +227,7 @@
     background-color: $background-img-color;
     width: 370px;
     height: 237px;
+    margin-bottom: -4px;
   }
   &-text_wrap {
     background-color:  #fbfaf8;
@@ -238,7 +239,7 @@
       border-bottom: 10px solid #fbfaf8;
       position: absolute;
       left: 19px;
-      top: -29px;
+      top: -25px;
     }
   }
   &-title {
