@@ -653,3 +653,18 @@
     }
   }
 }
+
+.partners {
+  width: 100%;
+  background: linear-gradient(to top, rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url("../img/partners-logos.jpg")  no-repeat;
+  padding: 140px 0;
+  display: flex;
+  justify-content: center;
+  &-link {
+    margin: 0 45px;
+    align-self: center;
+  }
+  &-img:hover {
+    filter: invert(50%);
+  }
+}

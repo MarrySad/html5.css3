@@ -887,6 +887,18 @@
     .post-btn-link:active {
       opacity: 0.9; }
 
+.partners {
+  width: 100%;
+  background: linear-gradient(to top, rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url("../img/partners-logos.jpg") no-repeat;
+  padding: 140px 0;
+  display: flex;
+  justify-content: center; }
+  .partners-link {
+    margin: 0 45px;
+    align-self: center; }
+  .partners-img:hover {
+    filter: invert(50%); }
+
 .main-header {
   width: 100%;
   position: absolute;
