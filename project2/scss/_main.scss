@@ -251,14 +251,13 @@
     font-family: "Raleway Medium", sans-serif;
     color: $color-hover;
     font-size: 20px;
-    font-weight: 500;
     text-align: left;
   }
   &-p {
     font-family: "Montserrat Light", sans-serif;
     color: #d1d1d1;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: bold;
     text-align: left;
     margin-bottom: 0;
   }
@@ -272,17 +271,17 @@
     top: 106px;
   }
   &-link {
-    background: url("../img/link.png") center;
+    background: url("../img/icons/link.png") center no-repeat;
     left: 145px;
     &:hover {
-      background: linear-gradient(to top, rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3));
+      background: url("../img/icons/link-hover.png") center no-repeat;
     }
   }
   &-view {
-    background: url("../img/lupa.png") no-repeat center;
+    background: url("../img/icons/lupa.png") center no-repeat;
     right: 145px;
     &:hover {
-      background: linear-gradient(to top, rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3));
+      background: url("../img/icons/lupa-hover.png") center no-repeat;
     }
   }
   &:hover {
@@ -345,7 +344,7 @@
     }
     &-p {
       max-width: 570px;
-      margin: 30px auto 0;
+      margin: 30px auto 0 auto;
       font-family: "Montserrat Light", sans-serif;
       color: #ffffff;
       font-size: 16px;
@@ -462,6 +461,195 @@
       margin: 10px 0 24px;
       text-transform: uppercase;
       font-weight: bold;
+    }
+  }
+}
+
+.recent_posts {
+  width: 100%;
+  padding: 80px 0;
+  background-color: $section-color-l;
+  &-h2 {
+    width: 100%;
+    font-family: "Raleway Semibold", sans-serif;
+    color: $color-title;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0;
+  }
+  &-p {
+    width: 770px;
+    margin: 10px auto;
+    font-family: "Montserrat Light", sans-serif;
+    color: $color-p;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+  }
+  &-wrap {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  &-elem {
+    width: 370px;
+    margin: 40px 0;
+    position: relative;
+    &-img {
+      width: 370px;
+      height: 220px;
+      background: $background-img-color;
+    }
+    &-text {
+      border: 1px solid #f8f8f8;
+      border-top: none;
+      box-sizing: border-box;
+      padding: 30px;
+      margin-top: -4px;
+    }
+    &-title {
+      font-family: "Raleway Medium", sans-serif;
+      color: $color-title;
+      font-size: 20px;
+      text-align: left;
+    }
+    &-p {
+      font-family: "Montserrat Light", sans-serif;
+      color: $color-p;
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 22px;
+      text-align: left;
+    }
+    &-link {
+      font-family: "Montserrat Light", sans-serif;
+      color: $color-hover;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 20px;
+      text-align: left;
+      position: relative;
+      &:hover {
+        color: lighten(#c7b29a, 15%);
+        &:after {
+          border-left-color: lighten(#c7b29a, 15%);
+        }
+      }
+      &:active {
+        color: #fff;
+        &:after {
+          border-left-color: #ffffff;
+        }
+      }
+      &:after {
+        content: "";
+        border: 5px solid transparent;
+        border-left: 5px solid #c7b29a;
+        position: absolute;
+        left: 84px;
+        top: 2px;
+      }
+    }
+    &-date {
+      position: absolute;
+      width: 50px;
+      height: 60px;
+      top: 20px;
+      left: 20px;
+      z-index: 1;
+      &-number {
+        display: block;
+        padding: 4px 3px;
+        font-family: "Montserrat Light", sans-serif;
+        color: #ffffff;
+        font-size: 24px;
+        text-align: center;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        background-color: #363636;
+      }
+      &-month {
+        display: block;
+        padding: 5px 3px;
+        font-family: "Roboto Regular", sans-serif;
+        color: #ffffff;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        background-color: #252525;
+      }
+    }
+    &:hover {
+      .recent_posts-elem-img {
+        filter: brightness(0.3);
+      }
+      .recent_posts-elem {
+        &-text {
+          background-color: #362f2d;
+          border-color: transparent;
+        }
+        &-title {
+          color: #c7b299;
+        }
+        &-p {
+          color: #fff;
+        }
+        &-date {
+          &-number {
+            background-color: #c7b299;
+          }
+          &-month {
+            background-color: #a48d72;
+          }
+        }
+      }
+    }
+  }
+  &-btn-wrap {
+   width: 64px;
+    margin: 0 auto;
+  }
+  &-btn {
+    width: 22px;
+    height: 22px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding: 0;
+    margin: 0 4px;
+    fill: #d1d1d1;
+    &:hover {
+      fill: $color-hover;
+    }
+  }
+}
+
+.post-btn {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 177px;
+  left: 125px;
+  &-link {
+    display: block;
+    width: 11px;
+    height: 11px;
+    margin: 4px;
+    background: white;
+    opacity: 0.5;
+    border: 2px solid #343536;
+    border-radius: 50%;
+    &:hover {
+      background-color: transparent;
+      border-color: white;
+    }
+    &:active {
+      opacity: 0.9;
     }
   }
 }

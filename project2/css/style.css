@@ -27,6 +27,10 @@
   font-weight: 700;
   src: url("../fonts/raleway-extrabold.eot?") format("eot"), url("../fonts/raleway-extrabold.woff2") format("woff2"), url("../fonts/raleway-extrabold.woff") format("woff"), url("../fonts/raleway-extrabold.ttf") format("truetype"), url("../fonts/raleway-extrabold.svg#Raleway_Extrabold") format("svg"); }
 @font-face {
+  font-family: "Roboto Regular";
+  font-weight: 400;
+  src: url("../fonts/roboto-regular.eot?") format("eot"), url("../fonts/roboto-regular.woff2") format("woff2"), url("../fonts/roboto-regular.woff") format("woff"), url("../fonts/roboto-regular.ttf") format("truetype"), url("../fonts/roboto-regular.svg#Roboto_Regular") format("svg"); }
+@font-face {
   font-family: "Montserrat ExtraLight";
   font-weight: 200;
   src: url("../fonts/montserrat-extralight.eot?") format("eot"), url("../fonts/montserrat-extralight.woff2") format("woff2"), url("../fonts/montserrat-extralight.woff") format("woff"), url("../fonts/montserrat-extralight.ttf") format("truetype"), url("../fonts/montserrat-extralight.svg#Montserrat_ExtraLight") format("svg"); }
@@ -55,6 +59,10 @@
   font-weight: 700;
   src: url("../fonts/raleway-extrabold.eot?") format("eot"), url("../fonts/raleway-extrabold.woff2") format("woff2"), url("../fonts/raleway-extrabold.woff") format("woff"), url("../fonts/raleway-extrabold.ttf") format("truetype"), url("../fonts/raleway-extrabold.svg#Raleway_Extrabold") format("svg"); }
 @font-face {
+  font-family: "Roboto Regular";
+  font-weight: 400;
+  src: url("../fonts/roboto-regular.eot?") format("eot"), url("../fonts/roboto-regular.woff2") format("woff2"), url("../fonts/roboto-regular.woff") format("woff"), url("../fonts/roboto-regular.ttf") format("truetype"), url("../fonts/roboto-regular.svg#Roboto_Regular") format("svg"); }
+@font-face {
   font-family: "Montserrat ExtraLight";
   font-weight: 200;
   src: url("../fonts/montserrat-extralight.eot?") format("eot"), url("../fonts/montserrat-extralight.woff2") format("woff2"), url("../fonts/montserrat-extralight.woff") format("woff"), url("../fonts/montserrat-extralight.ttf") format("truetype"), url("../fonts/montserrat-extralight.svg#Montserrat_ExtraLight") format("svg"); }
@@ -83,6 +91,10 @@
   font-weight: 700;
   src: url("../fonts/raleway-extrabold.eot?") format("eot"), url("../fonts/raleway-extrabold.woff2") format("woff2"), url("../fonts/raleway-extrabold.woff") format("woff"), url("../fonts/raleway-extrabold.ttf") format("truetype"), url("../fonts/raleway-extrabold.svg#Raleway_Extrabold") format("svg"); }
 @font-face {
+  font-family: "Roboto Regular";
+  font-weight: 400;
+  src: url("../fonts/roboto-regular.eot?") format("eot"), url("../fonts/roboto-regular.woff2") format("woff2"), url("../fonts/roboto-regular.woff") format("woff"), url("../fonts/roboto-regular.ttf") format("truetype"), url("../fonts/roboto-regular.svg#Roboto_Regular") format("svg"); }
+@font-face {
   font-family: "Montserrat ExtraLight";
   font-weight: 200;
   src: url("../fonts/montserrat-extralight.eot?") format("eot"), url("../fonts/montserrat-extralight.woff2") format("woff2"), url("../fonts/montserrat-extralight.woff") format("woff"), url("../fonts/montserrat-extralight.ttf") format("truetype"), url("../fonts/montserrat-extralight.svg#Montserrat_ExtraLight") format("svg"); }
@@ -110,12 +122,15 @@
   font-family: "Raleway Extrabold";
   font-weight: 700;
   src: url("../fonts/raleway-extrabold.eot?") format("eot"), url("../fonts/raleway-extrabold.woff2") format("woff2"), url("../fonts/raleway-extrabold.woff") format("woff"), url("../fonts/raleway-extrabold.ttf") format("truetype"), url("../fonts/raleway-extrabold.svg#Raleway_Extrabold") format("svg"); }
+@font-face {
+  font-family: "Roboto Regular";
+  font-weight: 400;
+  src: url("../fonts/roboto-regular.eot?") format("eot"), url("../fonts/roboto-regular.woff2") format("woff2"), url("../fonts/roboto-regular.woff") format("woff"), url("../fonts/roboto-regular.ttf") format("truetype"), url("../fonts/roboto-regular.svg#Roboto_Regular") format("svg"); }
 .slider {
   width: 100%;
   max-height: 1024px;
   height: 100vh;
   background: linear-gradient(to top, rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url("../img/header.jpg") no-repeat center top;
-  padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -172,14 +187,14 @@
 .slider-btn {
   display: flex;
   justify-content: center;
-  margin: 40px auto;
   position: absolute;
-  bottom: 0; }
+  bottom: 0;
+  margin-bottom: 40px; }
   .slider-btn-link {
     display: block;
     width: 11px;
     height: 11px;
-    margin: 5px;
+    margin: 4px;
     background: white;
     opacity: 0.5;
     border: 2px solid #343536;
@@ -256,6 +271,10 @@
   font-weight: 700;
   src: url("../fonts/raleway-extrabold.eot?") format("eot"), url("../fonts/raleway-extrabold.woff2") format("woff2"), url("../fonts/raleway-extrabold.woff") format("woff"), url("../fonts/raleway-extrabold.ttf") format("truetype"), url("../fonts/raleway-extrabold.svg#Raleway_Extrabold") format("svg"); }
 @font-face {
+  font-family: "Roboto Regular";
+  font-weight: 400;
+  src: url("../fonts/roboto-regular.eot?") format("eot"), url("../fonts/roboto-regular.woff2") format("woff2"), url("../fonts/roboto-regular.woff") format("woff"), url("../fonts/roboto-regular.ttf") format("truetype"), url("../fonts/roboto-regular.svg#Roboto_Regular") format("svg"); }
+@font-face {
   font-family: "Montserrat ExtraLight";
   font-weight: 200;
   src: url("../fonts/montserrat-extralight.eot?") format("eot"), url("../fonts/montserrat-extralight.woff2") format("woff2"), url("../fonts/montserrat-extralight.woff") format("woff"), url("../fonts/montserrat-extralight.ttf") format("truetype"), url("../fonts/montserrat-extralight.svg#Montserrat_ExtraLight") format("svg"); }
@@ -283,6 +302,10 @@
   font-family: "Raleway Extrabold";
   font-weight: 700;
   src: url("../fonts/raleway-extrabold.eot?") format("eot"), url("../fonts/raleway-extrabold.woff2") format("woff2"), url("../fonts/raleway-extrabold.woff") format("woff"), url("../fonts/raleway-extrabold.ttf") format("truetype"), url("../fonts/raleway-extrabold.svg#Raleway_Extrabold") format("svg"); }
+@font-face {
+  font-family: "Roboto Regular";
+  font-weight: 400;
+  src: url("../fonts/roboto-regular.eot?") format("eot"), url("../fonts/roboto-regular.woff2") format("woff2"), url("../fonts/roboto-regular.woff") format("woff"), url("../fonts/roboto-regular.ttf") format("truetype"), url("../fonts/roboto-regular.svg#Roboto_Regular") format("svg"); }
 .services {
   width: 100%;
   background-color: #fcfcfc;
@@ -537,13 +560,12 @@
     font-family: "Raleway Medium", sans-serif;
     color: #c7b29a;
     font-size: 20px;
-    font-weight: 500;
     text-align: left; }
   .preview-p {
     font-family: "Montserrat Light", sans-serif;
     color: #d1d1d1;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: bold;
     text-align: left;
     margin-bottom: 0; }
   .preview-link, .preview-view {
@@ -555,15 +577,15 @@
     position: absolute;
     top: 106px; }
   .preview-link {
-    background: url("../img/link.png") center;
+    background: url("../img/icons/link.png") center no-repeat;
     left: 145px; }
     .preview-link:hover {
-      background: linear-gradient(to top, rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3)); }
+      background: url("../img/icons/link-hover.png") center no-repeat; }
   .preview-view {
-    background: url("../img/lupa.png") no-repeat center;
+    background: url("../img/icons/lupa.png") center no-repeat;
     right: 145px; }
     .preview-view:hover {
-      background: linear-gradient(to top, rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3)); }
+      background: url("../img/icons/lupa-hover.png") center no-repeat; }
   .preview:hover .preview-img {
     filter: brightness(0.4); }
   .preview:hover .preview-text_wrap {
@@ -612,7 +634,7 @@
       text-align: center; }
     .video_presentation-layer-p {
       max-width: 570px;
-      margin: 30px auto 0;
+      margin: 30px auto 0 auto;
       font-family: "Montserrat Light", sans-serif;
       color: #ffffff;
       font-size: 16px;
@@ -712,6 +734,158 @@
       margin: 10px 0 24px;
       text-transform: uppercase;
       font-weight: bold; }
+
+.recent_posts {
+  width: 100%;
+  padding: 80px 0;
+  background-color: #fcfcfc; }
+  .recent_posts-h2 {
+    width: 100%;
+    font-family: "Raleway Semibold", sans-serif;
+    color: #555555;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0; }
+  .recent_posts-p {
+    width: 770px;
+    margin: 10px auto;
+    font-family: "Montserrat Light", sans-serif;
+    color: #8c8c8c;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center; }
+  .recent_posts-wrap {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+  .recent_posts-elem {
+    width: 370px;
+    margin: 40px 0;
+    position: relative; }
+    .recent_posts-elem-img {
+      width: 370px;
+      height: 220px;
+      background: #c7b29a; }
+    .recent_posts-elem-text {
+      border: 1px solid #f8f8f8;
+      border-top: none;
+      box-sizing: border-box;
+      padding: 30px;
+      margin-top: -4px; }
+    .recent_posts-elem-title {
+      font-family: "Raleway Medium", sans-serif;
+      color: #555555;
+      font-size: 20px;
+      text-align: left; }
+    .recent_posts-elem-p {
+      font-family: "Montserrat Light", sans-serif;
+      color: #8c8c8c;
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 22px;
+      text-align: left; }
+    .recent_posts-elem-link {
+      font-family: "Montserrat Light", sans-serif;
+      color: #c7b29a;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 20px;
+      text-align: left;
+      position: relative; }
+      .recent_posts-elem-link:hover {
+        color: #e2d8cb; }
+        .recent_posts-elem-link:hover:after {
+          border-left-color: #e2d8cb; }
+      .recent_posts-elem-link:active {
+        color: #fff; }
+        .recent_posts-elem-link:active:after {
+          border-left-color: #ffffff; }
+      .recent_posts-elem-link:after {
+        content: "";
+        border: 5px solid transparent;
+        border-left: 5px solid #c7b29a;
+        position: absolute;
+        left: 84px;
+        top: 2px; }
+    .recent_posts-elem-date {
+      position: absolute;
+      width: 50px;
+      height: 60px;
+      top: 20px;
+      left: 20px;
+      z-index: 1; }
+      .recent_posts-elem-date-number {
+        display: block;
+        padding: 4px 3px;
+        font-family: "Montserrat Light", sans-serif;
+        color: #ffffff;
+        font-size: 24px;
+        text-align: center;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        background-color: #363636; }
+      .recent_posts-elem-date-month {
+        display: block;
+        padding: 5px 3px;
+        font-family: "Roboto Regular", sans-serif;
+        color: #ffffff;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        background-color: #252525; }
+    .recent_posts-elem:hover .recent_posts-elem-img {
+      filter: brightness(0.3); }
+    .recent_posts-elem:hover .recent_posts-elem-text {
+      background-color: #362f2d;
+      border-color: transparent; }
+    .recent_posts-elem:hover .recent_posts-elem-title {
+      color: #c7b299; }
+    .recent_posts-elem:hover .recent_posts-elem-p {
+      color: #fff; }
+    .recent_posts-elem:hover .recent_posts-elem-date-number {
+      background-color: #c7b299; }
+    .recent_posts-elem:hover .recent_posts-elem-date-month {
+      background-color: #a48d72; }
+  .recent_posts-btn-wrap {
+    width: 64px;
+    margin: 0 auto; }
+  .recent_posts-btn {
+    width: 22px;
+    height: 22px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding: 0;
+    margin: 0 4px;
+    fill: #d1d1d1; }
+    .recent_posts-btn:hover {
+      fill: #c7b29a; }
+
+.post-btn {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 177px;
+  left: 125px; }
+  .post-btn-link {
+    display: block;
+    width: 11px;
+    height: 11px;
+    margin: 4px;
+    background: white;
+    opacity: 0.5;
+    border: 2px solid #343536;
+    border-radius: 50%; }
+    .post-btn-link:hover {
+      background-color: transparent;
+      border-color: white; }
+    .post-btn-link:active {
+      opacity: 0.9; }
 
 .main-header {
   width: 100%;
