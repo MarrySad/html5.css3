@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "Raleway Regular";
+  src: url("../fonts/raleway-regular/Raleway-Regular.ttf"); }
+@font-face {
+  font-family: "Montserrat Light";
+  src: url("../fonts/montserrat-light.ttf"); }
+@font-face {
+  font-family: "Raleway Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/releway-regular.eot?") format("eot"), url("fonts/releway-regular.woff2") format("woff2"), url("fonts/releway-regular.woff") format("woff"), url("fonts/releway-regular.ttf") format("truetype"), url("fonts/releway-regular.svg#Raleway_Regular") format("svg"); }
+.main-header {
+  display: flex;
+  background-color: rgba(17, 17, 17, 0.7);
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.logo-block {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  margin: 0 19.6% 0 0; }
+  .logo-block:hover {
+    color: #c7b29a; }
+    .logo-block:hover .logo {
+      fill: #c7b29a; }
+
+.logo-text {
+  font-family: "Raleway Regular", sans-serif;
+  font-size: 34px;
+  font-weight: 400; }
+
+.logo {
+  fill: #fff; }
+
+.header-nav li {
+  display: inline; }
+.header-nav a {
+  font-family: "Montserrat Light", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  text-decoration: none;
+  color: #fff;
+  margin: 0 15px; }
+  .header-nav a:hover {
+    color: #c7b29a; }
+
+.slider {
+  width: 100%; }
+
+a {
+  color: white; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,99 @@
+@import "veriables";
+@import "mixin_for_font";
+@import "mixins";
+@import "slider";
+@import "main";
+
+.main-header {
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+}
+
+.header-wrap {
+  max-width: 100%;
+  width: 1170px;
+  margin: 40px auto 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.logo-block {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: $color-white;
+  //margin-right: auto;
+  &:hover {
+    color: $color-hover;
+    .logo {
+      fill: $color-hover
+    }
+  }
+}
+
+.logo-text {
+  font-family: $font-logo;
+  font-size: 34px;
+}
+
+.logo {
+  fill: $color-white;
+}
+
+.header-nav {
+  ul {
+    padding-left: 0;
+
+  }
+  display: flex;
+  li {
+    display: inline;
+  }
+  a {
+    font-family: $font-small-text;
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    color: $color-white;
+    margin: 0 15px;
+    &:hover {
+      color: $color-hover;
+    }
+  }
+}
+
+.cart {
+  margin: 0 14px 0 50px;
+  padding: 15px 0;
+  svg{
+    fill: $color-white;
+    &:hover {
+      fill: $color-hover
+    }
+  }
+}
+
+.form-search{
+  margin-left: 14px;
+  padding: 7px 0;
+}
+
+.search {
+  width: 40px;
+  transition: width 1s ease-out, background-position 1s ease-out;
+  height: 40px;
+  outline: none;
+  border: none;
+  background-size: contain;
+  background: url('../img/icons/icon-search.png') no-repeat center;
+  &:focus {
+    width: 152px;
+    transition: width 1s ease-out, background-position 1s ease-out;
+    background-position: 95%;
+    border: 1px solid gray;
+  }
+}
+
+
